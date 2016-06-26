@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 
-import '../../public/css/styles.css';
+import '../../../public/css/styles.css';
 
-export class Hero {
-  id: number;
-  name: string;
-}
+import { Hero } from '../../models/hero';
+
+import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
@@ -23,7 +22,8 @@ const HEROES: Hero[] = [
 @Component({
   selector: 'my-app',
   template: require('./app.component.html'),
-  styles: [require('./app.component.css')]
+  styles: [require('./app.component.css')],
+  directives: [HeroDetailComponent]
 })
 export class AppComponent {
   title = 'Tour of Heroes';
