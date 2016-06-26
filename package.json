@@ -1,7 +1,25 @@
 {
-  "name": "angular2-webpack",
-  "version": "1.0.0",
-  "description": "A webpack starter for angular 2",
+  "name": "angular2-tour-of-heroes",
+  "version": "0.0.1",
+  "description": "Implementation of the application in the angular2 documentation.",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercpereda/angular2-tour-of-heroes.git"
+  },
+  "keywords": [
+    "angular2",
+    "toh",
+    "tour-of-heroes"
+  ],
+  "author": "E. R. C. Pereda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ercpereda/angular2-tour-of-heroes/issues"
+  },
+  "homepage": "https://github.com/ercpereda/angular2-tour-of-heroes#readme",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
