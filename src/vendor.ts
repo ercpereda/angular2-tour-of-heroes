@@ -5,6 +5,7 @@ import '@angular/core';
 import '@angular/common';
 import '@angular/http';
 import '@angular/router-deprecated';
+import 'angular2-in-memory-web-api';
 
 // RxJS
 import 'rxjs';
